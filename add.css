@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+.navbar img{
+    display: block;
+    width: 75px;
+    height: 55;
+    display: flex;
+    justify-content: start;
+  }
+  body{
+      background-color: black !important;
+  }
+  .navbar p{
+      background-color: black;
+      color: rgb(255, 255, 255);
+      display: flex;
+      justify-content: space-around;  
+      gap: 8px;
+  }
+  .navelement{
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+  }
+  main h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 64px;
+  }
+  .buttons{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    flex-direction: column;
+    margin-top: auto;
+  }
+  .buttons button{
+    border-radius:25px;
+    height:33px;
+    width:150px;
+    border: none;
+    color: #878787;
+    height: 50px;
+    width: 397px;
+  }
+  .buttons b{
+   display: flex;
+   justify-content: left;
+  }
+  .buttons input{
+    border-radius: 25px;
+    height: 32px;
+    width: 100px;
+    border: none;
+  }
+  :hover{
+    color: black;
+  }
+  .logo2{
+    height:55px;
+    width: 75px;
+  }
+  .footer{
+    margin-top: 350px;
+  }
+  .footertext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:12px;
+  }
+  .footerimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:42px;
+    
+  }
+  .footerimg img{
+    width: 40px;
+    height: 40px;
+  }
+  .footertext p{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  

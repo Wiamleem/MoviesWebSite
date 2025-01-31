@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+.navbar img{
+    display: block;
+    width: 75px;
+    height: 55;
+    display: flex;
+    justify-content: start;
+  }
+  body{
+      background-color: black !important;
+  }
+  .navbar p{
+      background-color: black;
+      color: rgb(255, 255, 255);
+      display: flex;
+      justify-content: space-around;  
+      gap: 8px;
+  }
+  .navelement{
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .search{
+    width: 391px;
+    height: 32px;
+    border-radius: 25px;
+    border: none;
+  }
+  main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .firsttext{
+    color: white;
+    display: flex;
+    justify-content:flex-;
+  }
+
+  .images1{
+    display: flex;
+    justify-content: space-around;
+    width: 115px;
+    height: 170px;
+    width: 100%;
+    border-radius: 25px;
+    margin: 64px 0px;
+  }
+  .images1 img{
+    border-radius: 25px;
+    transition: transform 0.9s ease; 
+  }
+  .images1 img:hover {
+    transform: scale(1.1); /* Slightly scale the image on hover */
+  }
+  .secondtext{
+    color: white;
+    display: flex;
+    justify-content:flex-;
+  }
+  .images2{
+    display: flex;
+    justify-content: space-around;
+    width: 115px;
+    height: 170px;
+    width: 100%;
+    border-radius: 25px;
+    margin: 64px 0px;
+    
+  }
+  .images2 img{
+    border-radius: 25px;
+    transition: transform 0.9s ease; 
+
+  }
+  .images2 img:hover {
+    transform: scale(1.1);
+  }
+  .Discover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+  }
+  .Discover button{
+    border-radius:25px;
+    height:33px;
+    width:150px;
+    border: none;
+    color: #8D2A2A;
+    
+  }
+  .logo2{
+    height:55px;
+    width: 75px;
+  }
+
+  .buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+.buttons button{
+  border-radius:25px;
+  height:33px;
+  width:150px;
+  border: none;
+  color: #000000
+}
+  .footer{
+    margin-top: 350px;
+  }
+  .footertext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:12px;
+  }
+  .footerimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:42px;
+    
+  }
+  .footerimg img{
+    width: 40px;
+    height: 40px;
+  }
+  .footertext p{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
